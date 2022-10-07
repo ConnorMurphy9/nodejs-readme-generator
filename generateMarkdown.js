@@ -1,6 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
+console.log(license);
   if (license === 1) {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
   }
@@ -23,6 +24,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license === 1) {
     return "https://opensource.org/licenses/MIT"
+    
   }
   else if (license === 2) {
     return "(https://opensource.org/licenses/MPL-2.0)"
@@ -40,38 +42,54 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
-renderLicenseBadge();
-renderLicenseLink();
+function renderLicenseSection() {
+`${renderLicenseBadge()}
+${renderLicenseLink()}`;
+}
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
- 
+function generateMarkdown(answers) {
+  console.log(answers);
+  renderLicenseSection();
+`# ${answers.title}
+  
 ## Description
-${data.description}
+${answers.description}
 
 ## Table of Contents
 
 ## Installation
-${data.installation}
+${answers.installation}
 
 ## Usage
-${data.usage}
+${answers.usage}
 
 ## License
-${data.license}
+${answers.license}
 
 ## Contributing
-${data.contributing}
+${answers.contributing}
 
 ## Tests
-${data.tests}
+${answers.tests}
 
-${data.githubUsername}
+${answers.githubUsername}
 
-${data.email}
+${answers.email}
 `;
+
+// inquirer
+// .prompt(questions)
+// .then((answers) => {
+//     fs.writeFile("README.md", markdown.generateMarkdown(answers), (err) =>
+//     err ? console.error(err) : console.log('Success!'))}
+    
+  // .then((answers) => {
+  //   fs.writeFile("README.md", markdown.generateMarkdown(answers), (err) =>
+  //   err ? console.error(err) : console.log('Success!'))
+  //   }
+  // writeToFile("README.md", markdown.generateMarkdown(answers))
+    // console.log(answers);
 }
-}
-module.exports = generateMarkdown();
+
+module.exports = {generateMarkdown}
