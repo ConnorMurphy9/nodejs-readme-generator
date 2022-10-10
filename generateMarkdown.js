@@ -70,9 +70,9 @@ ${answers.description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Contributing] (#contributing)
-- [Tests] (#tests)
-- [Questions] (#questions)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 ${answers.installation}

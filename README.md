@@ -1,9 +1,9 @@
-# The title of my project
+# title of project
   
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ## Description
-the description
+description
 
 ## Table of Contents
 
@@ -16,23 +16,23 @@ the description
 - [Questions](#questions)
 
 ## Installation
-alsjfg
+install instructions
 
 ## Usage
-sdfhsdfh
+usage instructions
 
 ## License
 https://opensource.org/licenses/MIT
 
 ## Contributing
-
+me
 
 ## Tests
+none yet
 
+my username
 
-
-
-
+my email
 
 ##Questions
 
