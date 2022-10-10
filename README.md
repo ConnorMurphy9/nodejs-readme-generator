@@ -1,9 +1,9 @@
-# title of project
+# Node JS README Generator
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 
 ## Description
-description
+This project was made to help users generate their own README files for their projects.
 
 ## Table of Contents
 
@@ -16,23 +16,23 @@ description
 - [Questions](#questions)
 
 ## Installation
-install instructions
+The user needs to have NPM Inquirer installed to use this generator. Then, go to the integrated terminal for the index file and type in "node index.js" when ready to generate the README.
 
 ## Usage
-usage instructions
+See the installation instructions above.
 
 ## License
 https://opensource.org/licenses/MIT
 
 ## Contributing
-me
+N/A
 
 ## Tests
-none yet
+N/A
 
-my username
+ConnorMurphy9
 
-my email
+connormurphy012@gmail.com
 
 ##Questions
 

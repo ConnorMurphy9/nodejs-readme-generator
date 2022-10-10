@@ -98,18 +98,7 @@ ${answers.email}
 
 `;
 
-// inquirer
-// .prompt(questions)
-// .then((answers) => {
-//     fs.writeFile("README.md", markdown.generateMarkdown(answers), (err) =>
-//     err ? console.error(err) : console.log('Success!'))}
-    
-  // .then((answers) => {
-  //   fs.writeFile("README.md", markdown.generateMarkdown(answers), (err) =>
-  //   err ? console.error(err) : console.log('Success!'))
-  //   }
-  // writeToFile("README.md", markdown.generateMarkdown(answers))
-    // console.log(answers);
+
 }
 
 module.exports = {generateMarkdown}
